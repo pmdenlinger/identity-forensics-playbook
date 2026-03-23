@@ -1,0 +1,13 @@
+![Identity Forensics Playbook](./images/readme-banner.png)
+<p align="center">
+  <img src="./images/banner.png" alt="Identity Forensics Playbook" />
+
+## Roadmap
+
+- [ ] Add synthetic sample datasets for identity signals
+- [ ] Build EX03 – OAuth Exfiltration
+- [ ] Build EX04 – Dev Tenant Bypass
+- [ ] Build EX05 – Legacy Auth Evidence
+- [ ] Add Purview KQL queries
+- [ ] Add PowerShell Graph extraction scripts
+- [ ] Publish 3-part Identity Forensics series on LinkedIn
