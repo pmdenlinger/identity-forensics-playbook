@@ -23,10 +23,11 @@
 
 ---
 
-## What this repo is
+### What this is (and isn’t)
 
-**Identity Forensics** turns Microsoft 365 tenant signals (Entra ID sign‑ins, Teams memberships, SharePoint/OneDrive share‑links, mailbox rules, OAuth grants) into a **legally traceable scope** and a **counsel‑ready evidence bundle**.  
-The focus is practical: **avoid re‑collections**, **close Teams/SharePoint gaps**, and **ship time‑bounded exports with hashes and manifests**—using built‑in Microsoft tooling.
+This workbook focuses on identity signals and evidence locations in Microsoft 365:
+- Signals: Entra ID sign-ins, Teams memberships, SharePoint/OneDrive share-links, mailbox rules, OAuth grants.
+- Locations: Exchange, Teams (member/guest channels), SharePoint/OneDrive drives and sites.
 
 **Who it’s for**
 
