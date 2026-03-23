@@ -1,4 +1,4 @@
-![Identity Forensics Playbook](./images/readme-banner.png)
+![Identity Forensics Playbook](./images/readme-banner-02.png)
 <p align="center" style="margin-top: -20px; margin-bottom: -30px;">
   <img src="./images/banner.png" alt="Identity Forensics Playbook" />
 
