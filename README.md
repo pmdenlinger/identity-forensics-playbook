@@ -1,7 +1,10 @@
 ![Identity Forensics Playbook](./images/readme-banner-02.png)
-<p align="center" style="margin-top: -20px; margin-bottom: -30px;">
-  <img src="./images/banner.png" alt="Identity Forensics Playbook" />
+<p align="center" style="margin-top: -10px; margin-bottom: -20px;">
+  ./images/readme-banner-02.png
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Maintained-Yes <img src="https://img.shields.io/badge/Status-In%20Development-yellow" alt="s://img.shields.io/badge/Focus-M365%20Identity%20Forensics-blue" alt="Focusmg.shields.io/badge/Scope-Identity%20Aware-8A2BE2" alt="In Development Status" />
 
 <p align="center">
   <b>Identity‑aware, defensible Microsoft 365 evidence mapping for litigation and cross‑border investigations.</b>
@@ -11,10 +14,10 @@
   #quick-demoQuick Demo</a> •
   #what-this-repo-isWhat this repo is</a> •
   #methodMethod</a> •
-  <a href="#examples/a> •
-  <a href="#scripts--ripts & Queries</a> •
-  <a href="#lesDeliverables</a> •
-  <a href="#crossotesCross‑Border Notes</a>
+  #examplesExamples</a> •
+  #scripts--queriesScripts & Queries</a> •
+  #deliverablesDeliverables</a> •
+  #cross-border-notesCross‑Border Notes</a>
 </p>
 
 ---
@@ -22,6 +25,11 @@
 ## What this repo is
 **Identity Forensics** turns Microsoft 365 tenant signals (Entra ID sign‑ins, Teams memberships, SharePoint/OneDrive share‑links, mailbox rules, OAuth grants) into a **legally traceable scope** and a **counsel‑ready evidence bundle**.  
 The focus is practical: **avoid re‑collections**, **close Teams/SharePoint gaps**, and **ship time‑bounded exports with hashes and manifests**—using built‑in Microsoft tooling.
+
+**Who it’s for**
+- Litigation teams, LSPs, and investigations using Microsoft 365.
+- Cross‑border operations (e.g., Canada ↔ China/EU subsidiaries) needing **in‑region** collection patterns and **least‑intrusive** scope.
+
 
 **Who it’s for**
 - Litigation teams, LSPs, and investigations using Microsoft 365.
@@ -41,10 +49,12 @@ cd identity-forensics-playbook
 # python3 -m venv .venv && source .venv/bin/activate
 
 # 3) open the example and follow its README
-#   EX01: Teams Gap (guest/historic identity reveals missing items)
+#EX01: Teams Gap (guest/historic identity reveals missing items)
 code examples/ex01-teams-gap/README.md
 
-## Roadmap
+<p align="center">
+  <i>Roadmap: April → August (Pre‑Launch)</i>
+</p>
 
 - [ ] Add synthetic sample datasets for identity signals
 - [ ] Build EX03 – OAuth Exfiltration
@@ -53,3 +63,6 @@ code examples/ex01-teams-gap/README.md
 - [ ] Add Purview KQL queries
 - [ ] Add PowerShell Graph extraction scripts
 - [ ] Publish 3-part Identity Forensics series on LinkedIn
+
+➡️ Jump to: [EX01 TeamsGap
+➡️ Jump to: [Method](./method)
