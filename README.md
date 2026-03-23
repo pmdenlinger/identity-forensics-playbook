@@ -42,6 +42,24 @@ For each candidate location:
 3) Least-intrusive? (add only what the signal supports) 
 4) Documented? (record signal → reason → export in manifest)
 
+### EDRM Left‑Side Leak Controls
+Common leak points (technical):
+- Identification: guest identities and historic UPNs not mapped to locations
+- Preservation: holds not applied to specific Teams/SPO paths
+- Collection: mailbox-only pulls missing Teams/SharePoint content
+
+Control: enumerate identities → map to locations → apply holds/exports → record in manifest (hashes, operator, timestamp).
+
+### Human-in-the-Loop (Quality Control)
+A named operator validates:
+- Identity map completeness vs. matter custodian list
+- Signals → locations linkage (traceability)
+- Time-window correctness
+- Export integrity (hashes) and manifest accuracy
+- Added-hits delta vs. default collection
+
+Purpose: prevent missed sources and re-collections—not to interpret human intent.
+
 ---
 
 ## Quick Demo
