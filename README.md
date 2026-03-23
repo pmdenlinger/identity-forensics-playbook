@@ -1,4 +1,5 @@
 ![Identity Forensics Playbook](./images/readme-banner-02.png)
+
 <p align="center" style="margin-top: -10px; margin-bottom: -20px;">
   ./images/readme-banner-02.png
 </p>
@@ -23,21 +24,24 @@
 ---
 
 ## What this repo is
+
 **Identity Forensics** turns Microsoft 365 tenant signals (Entra ID sign‑ins, Teams memberships, SharePoint/OneDrive share‑links, mailbox rules, OAuth grants) into a **legally traceable scope** and a **counsel‑ready evidence bundle**.  
 The focus is practical: **avoid re‑collections**, **close Teams/SharePoint gaps**, and **ship time‑bounded exports with hashes and manifests**—using built‑in Microsoft tooling.
 
 **Who it’s for**
+
 - Litigation teams, LSPs, and investigations using Microsoft 365.
 - Cross‑border operations (e.g., Canada ↔ China/EU subsidiaries) needing **in‑region** collection patterns and **least‑intrusive** scope.
 
-
 **Who it’s for**
+
 - Litigation teams, LSPs, and investigations using Microsoft 365.
 - Cross‑border operations (e.g., Canada ↔ China/EU subsidiaries) needing **in‑region** collection patterns and **least‑intrusive** scope.
 
 ---
 
 ## Quick Demo
+
 > Run an end‑to‑end, synthetic example to see how identity signals change scope and recover missed items.
 
 ```bash
@@ -51,6 +55,7 @@ cd identity-forensics-playbook
 # 3) open the example and follow its README
 #EX01: Teams Gap (guest/historic identity reveals missing items)
 code examples/ex01-teams-gap/README.md
+```
 
 <p align="center">
   <i>Roadmap: April → August (Pre‑Launch)</i>
