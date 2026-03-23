@@ -29,15 +29,18 @@ This workbook focuses on identity signals and evidence locations in Microsoft 36
 - Signals: Entra ID sign-ins, Teams memberships, SharePoint/OneDrive share-links, mailbox rules, OAuth grants.
 - Locations: Exchange, Teams (member/guest channels), SharePoint/OneDrive drives and sites.
 
-**Who it’s for**
-
-- Litigation teams, LSPs, and investigations using Microsoft 365.
-- Cross‑border operations (e.g., Canada ↔ China/EU subsidiaries) needing **in‑region** collection patterns and **least‑intrusive** scope.
 
 **Who it’s for**
 
 - Litigation teams, LSPs, and investigations using Microsoft 365.
 - Cross‑border operations (e.g., Canada ↔ China/EU subsidiaries) needing **in‑region** collection patterns and **least‑intrusive** scope.
+
+### Scope Decision Rule (Signals → Location → Export)
+For each candidate location:
+1) Signal present? (identity, membership, link, rule, OAuth) 
+2) Within window? (UTC start/end) 
+3) Least-intrusive? (add only what the signal supports) 
+4) Documented? (record signal → reason → export in manifest)
 
 ---
 
